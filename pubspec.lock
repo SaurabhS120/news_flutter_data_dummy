@@ -105,9 +105,11 @@ packages:
   news_flutter_domain:
     dependency: "direct main"
     description:
-      path: "../news_flutter_domain"
-      relative: true
-    source: path
+      path: "."
+      ref: "1.0.0"
+      resolved-ref: ef4f895b804fbb2080096a3c572f00aefc1fbf66
+      url: "https://github.com/SaurabhS120/news_flutter_domain.git"
+    source: git
     version: "1.0.0+1"
   path:
     dependency: transitive
