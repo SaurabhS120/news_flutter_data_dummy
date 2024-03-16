@@ -32,7 +32,7 @@ dependencies:
   news_flutter_domain:
     git:
       url: https://github.com/SaurabhS120/news_flutter_domain.git
-      ref: 1.0.0
+      ref: 1.0.2
 
   either_dart: ^0.4.0
 
