@@ -34,7 +34,7 @@ dependencies:
       url: https://github.com/SaurabhS120/news_flutter_domain.git
       ref: 1.0.2
 
-  either_dart: ^0.4.0
+  either_dart: ^1.0.0
 
 dev_dependencies:
   flutter_test:
