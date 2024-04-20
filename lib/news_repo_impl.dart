@@ -14,14 +14,10 @@ class NewsRepoDummyImpl implements NewsRepo{
   @override
   Future<Either<List<NewsModel>,BaseError>> getNews() {
     final List<NewsModel> newsList = [
-      NewsModel(title: 'Nikki Halley raises \$12 million in February, bags first Senate endorsement, but rules out third-party run'),
-      NewsModel(title: 'Drone crash damages an apartment building in St. Petersburg, Russia state media says'),
-      NewsModel(title: 'Despite hectic discussions, WTO MC13 ends with no deals on fisheries, agriculture'),
-      NewsModel(title: 'Biden approves military air drops of aid into Gaza after Israeli firing left more than 100 dead'),
-      NewsModel(title: 'Top news of the day: Nine injured in blast at Bengaluru’s Rameshwaram Cafe; Defence Ministry seals procurement deals worth ₹39,125 crore, and more'),
-      NewsModel(title: 'Thailand replaces its Ambassador to WTO following strong protest by India on her remarks'),
-      NewsModel(title: 'Jamnagar airport gets international status for Anant Ambani’s pre-wedding bash'),
-      NewsModel(title: 'An encounter with unique marine wonders in Visakhapatnam'),
+      NewsModel(title: "Could Rivian Become the Next Tesla?", imageUrl: "https://c.biztoc.com/p/16b1e457d955b362/s.webp"),
+      NewsModel(title: "Tesla's layoffs week continues with recruiters the latest to lose their jobs", imageUrl: "https://c.biztoc.com/p/ba63b6a08784c91e/og.webp"),
+      NewsModel(title: "OpenAI slams Elon Musk’s ‘revisionist history’ in bid to toss lawsuit", imageUrl: "https://www.livemint.com/lm-img/img/2024/04/20/1600x900/FILES-US-TRANSPORT-AUTO-TESLA-MUSK-PAY-0_1713615444006_1713615464217.jpg"),
+      NewsModel(title: "A Complete History of Elon Musk’s Fascination with the Magic Number 420", imageUrl: "https://c.biztoc.com/p/31e9a7493cd43312/s.webp"),
     ];
     return Future.delayed(Duration(seconds: 2),()=>Left(newsList));
   }
